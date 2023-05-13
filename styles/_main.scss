@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+
+/*.container {
+    @include flex-Center;
+    width: 500px;
+    height: 500px;
+    margin-top:177px;
+    margin-bottom: 50px;
+    background-color: rgb(197, 78, 18);
+}*/
+
+
+/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
+/*Main layout*/
+
+
+/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
+/* customization of container */
+
+
+/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
+/*Footer*/
+
+.auteur { 
+    font-size: 14px; 
+    text-align: center;
+}
+
+.auteur c,a {
+    text-decoration: none; 
+}
+
+.ddd {
+    font-size: 16px; 
+    color: $color-ddd;
+    font-family: $font-ddd, $font-Parisienne;
+}
