@@ -15,14 +15,35 @@ body {
   background-color: aliceblue;
 }
 
-/*.container {
-    @include flex-Center;
-    width: 500px;
-    height: 500px;
-    margin-top:177px;
-    margin-bottom: 50px;
-    background-color: rgb(197, 78, 18);
-}*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.container h1 {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+.container .liens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .liens a {
+  background-color: lightcoral;
+  color: white;
+  font-size: 20px;
+  padding: 0.4em 1em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
 /*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
 /*Main layout*/
 /*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
