@@ -24,23 +24,43 @@ body {
 
     h1 {
         font-size: 30px;
-        margin-bottom: 1em;
+        margin: 1em;
     }
 
     .liens {
         @include flex-center-column;
 
         a {
-            background-color: lightcoral;
+            text-decoration: none;
+            background: $degrade-corail ;
             color: white;
             font-size: 20px;
             padding: 0.4em 1em;
             border-radius: 1em;
             margin-bottom: 1em;
             text-align: center;
+            box-shadow: 3px 3px 7px black;
         }
 
     }
+
+    .liens2 {
+        @include flex-center-column;
+
+        a {
+            text-decoration: none;
+            background: $degrade-vert ;
+            color: white;
+            font-size: 20px;
+            padding: 0.4em 1em;
+            border-radius: 1em;
+            margin-bottom: 1em;
+            text-align: center;
+            box-shadow: 3px 3px 7px black;
+
+        }
+
+    } 
 
 
 }
@@ -60,14 +80,17 @@ body {
 .auteur { 
     font-size: 14px; 
     text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    .ddd {
+        font-size: 16px; 
+        color: $color-ddd;
+        font-family: $font-ddd, $font-Parisienne;
+    }
 }
 
-.auteur c,a {
-    text-decoration: none; 
-}
 
-.ddd {
-    font-size: 16px; 
-    color: $color-ddd;
-    font-family: $font-ddd, $font-Parisienne;
-}
+

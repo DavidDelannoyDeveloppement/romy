@@ -1,7 +1,15 @@
 // colors :
 $color-ddd :rgb(255, 120, 0);
+$corail : lightcoral;
+$degrade-corail : linear-gradient($corail, rgb(206, 108, 108));
+$vert : rgb(121, 204, 121);
+$degrade-vert : linear-gradient($vert, #62a762);
+
+
 
 
 // polices :
 $font-ddd : 'Monotype Corsiva';
 $font-Parisienne :'Parisienne', cursive;
+
+

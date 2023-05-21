@@ -26,7 +26,7 @@ body {
 }
 .container h1 {
   font-size: 30px;
-  margin-bottom: 1em;
+  margin: 1em;
 }
 .container .liens {
   display: flex;
@@ -35,13 +35,32 @@ body {
   align-items: center;
 }
 .container .liens a {
-  background-color: lightcoral;
+  text-decoration: none;
+  background: linear-gradient(lightcoral, rgb(206, 108, 108));
   color: white;
   font-size: 20px;
   padding: 0.4em 1em;
   border-radius: 1em;
   margin-bottom: 1em;
   text-align: center;
+  box-shadow: 3px 3px 7px black;
+}
+.container .liens2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .liens2 a {
+  text-decoration: none;
+  background: linear-gradient(rgb(121, 204, 121), #62a762);
+  color: white;
+  font-size: 20px;
+  padding: 0.4em 1em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  box-shadow: 3px 3px 7px black;
 }
 
 /*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
@@ -54,12 +73,10 @@ body {
   font-size: 14px;
   text-align: center;
 }
-
-.auteur c, a {
+.auteur a {
   text-decoration: none;
 }
-
-.ddd {
+.auteur .ddd {
   font-size: 16px;
   color: rgb(255, 120, 0);
   font-family: "Monotype Corsiva", "Parisienne", cursive;
