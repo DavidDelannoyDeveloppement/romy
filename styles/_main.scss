@@ -15,20 +15,55 @@ body {
     min-height: 100vh;
     background-color: aliceblue;
 }
+
+
+/*$$$$$$$$$$$$$$$$$$$*/
+/*Container*/
+/*Bloc Principal*/
 .container {
     @include flex-center-column;
-    width: 60%;
-    // height: 500px;
+    justify-content: flex-start;
+    // z-index: 3;
+    width: 95%;
+    // max-width: 1440px;
+    // min-height: 800px;
     margin-top:10px;
     margin-bottom: 50px;
 
-    h1 {
-        font-size: 30px;
-        margin: 1em;
-    }
+    // background-image: url("/images/fond-jpeg.jpg");
+    // // background-color: #cccccc;
+    // // height: 1000px;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // position: relative;
+    
+
+    /*Images en fond*/
+    // .container__image_fond{
+    //     background-image: url("/images/fond-jpeg.jpg");
+    //     // background-color: #cccccc;
+    //     height: 1000px;
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     position: relative;
+    // }
+
+
+
 
     .liens {
         @include flex-center-column;
+        // z-index: 10;
+
+        h1 {
+        font-size: 30px;
+        margin: 1em;
+        color: $corail;
+        text-shadow: 0.5px 0.5px 2px $bleu;
+
+        }
 
         a {
             text-decoration: none;
@@ -39,13 +74,25 @@ body {
             border-radius: 1em;
             margin-bottom: 1em;
             text-align: center;
-            box-shadow: 3px 3px 7px black;
+            box-shadow: 3px 3px 7px $bleu;
+        }
+
+        a:hover {
+            color: $corail;
+            background: $bleu
         }
 
     }
 
     .liens2 {
         @include flex-center-column;
+
+        h1 {
+            font-size: 30px;
+            margin: 2em 0 1em;
+            color: $vert;
+            text-shadow: 0.5px 0.5px 2px $bleu;
+            }
 
         a {
             text-decoration: none;
@@ -56,8 +103,13 @@ body {
             border-radius: 1em;
             margin-bottom: 1em;
             text-align: center;
-            box-shadow: 3px 3px 7px black;
+            box-shadow: 3px 3px 7px $bleu;
+        }
 
+        a:hover {
+            color: $vert;
+            background: $bleu
+    
         }
 
     } 
@@ -66,12 +118,6 @@ body {
 }
 
 
-/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
-/*Main layout*/
-
-
-/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
-/* customization of container */
 
 
 /*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/

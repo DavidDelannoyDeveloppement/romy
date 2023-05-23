@@ -15,24 +15,31 @@ body {
   background-color: aliceblue;
 }
 
+/*$$$$$$$$$$$$$$$$$$$*/
+/*Container*/
+/*Bloc Principal*/
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  justify-content: flex-start;
+  width: 95%;
   margin-top: 10px;
   margin-bottom: 50px;
-}
-.container h1 {
-  font-size: 30px;
-  margin: 1em;
+  /*Images en fond*/
 }
 .container .liens {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container .liens h1 {
+  font-size: 30px;
+  margin: 1em;
+  color: lightcoral;
+  text-shadow: 0.5px 0.5px 2px rgb(6, 0, 81);
 }
 .container .liens a {
   text-decoration: none;
@@ -43,13 +50,23 @@ body {
   border-radius: 1em;
   margin-bottom: 1em;
   text-align: center;
-  box-shadow: 3px 3px 7px black;
+  box-shadow: 3px 3px 7px rgb(6, 0, 81);
+}
+.container .liens a:hover {
+  color: lightcoral;
+  background: rgb(6, 0, 81);
 }
 .container .liens2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container .liens2 h1 {
+  font-size: 30px;
+  margin: 2em 0 1em;
+  color: rgb(121, 204, 121);
+  text-shadow: 0.5px 0.5px 2px rgb(6, 0, 81);
 }
 .container .liens2 a {
   text-decoration: none;
@@ -60,13 +77,13 @@ body {
   border-radius: 1em;
   margin-bottom: 1em;
   text-align: center;
-  box-shadow: 3px 3px 7px black;
+  box-shadow: 3px 3px 7px rgb(6, 0, 81);
+}
+.container .liens2 a:hover {
+  color: rgb(121, 204, 121);
+  background: rgb(6, 0, 81);
 }
 
-/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
-/*Main layout*/
-/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
-/* customization of container */
 /*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
 /*Footer*/
 .auteur {
