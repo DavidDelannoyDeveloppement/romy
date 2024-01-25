@@ -20,7 +20,7 @@
         h1 {
         font-size: 100px;
         color: $vert-fonce;
-        margin : 1em 0 2em 0em;
+        margin : 1em 0 2em -0.3em;
 
         }
     }
@@ -76,7 +76,7 @@
 
 /*Responsive design -700px*/
 @media only screen and (max-width:700px){
-    .container_page_psc1 {
+    .container_page_preventions {
         .section-choix {
         padding-left: 0;
         }
@@ -84,7 +84,7 @@
 
             h1 {
                 font-size: 60px;
-                margin : 1em 0 1em 0;
+                margin : 1em 0 1em -0.5em;
             }
         }
     }

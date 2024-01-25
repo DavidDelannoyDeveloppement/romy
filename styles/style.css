@@ -321,7 +321,7 @@ body {
 .container_page_preventions .titre h1 {
   font-size: 100px;
   color: #0e2b2f;
-  margin: 1em 0 2em 0em;
+  margin: 1em 0 2em -0.3em;
 }
 .container_page_preventions .section-choix {
   display: flex;
@@ -374,11 +374,11 @@ body {
 
 /*Responsive design -700px*/
 @media only screen and (max-width: 700px) {
-  .container_page_psc1 .section-choix {
+  .container_page_preventions .section-choix {
     padding-left: 0;
   }
-  .container_page_psc1 .titre h1 {
+  .container_page_preventions .titre h1 {
     font-size: 60px;
-    margin: 1em 0 1em 0;
+    margin: 1em 0 1em -0.5em;
   }
 }/*# sourceMappingURL=style.css.map */
