@@ -46,6 +46,7 @@
 
             .support-image {
                 @include flex-center;
+                background-color: white;
                 width: 166px;
                 height: 166px;
                 border: solid 2px black;
