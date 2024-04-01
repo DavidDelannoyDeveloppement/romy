@@ -185,6 +185,7 @@ body {
   border: solid 2px black;
 }
 .container_page_psc1 .section-choix .photo .support-image img {
+  height: 100%;
   width: 100%;
 }
 .container_page_psc1 .section-choix .photo h2 {
@@ -356,6 +357,7 @@ body {
   border: solid 2px black;
 }
 .container_page_preventions .section-choix .photo .support-image img {
+  height: 100%;
   width: 100%;
 }
 .container_page_preventions .section-choix .photo h2 {
